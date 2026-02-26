@@ -1,6 +1,6 @@
 from math import factorial
 
-from app import fact
+from fact import factorial
 def test_factorial_zero():
     assert factorial(0) == 1
 
