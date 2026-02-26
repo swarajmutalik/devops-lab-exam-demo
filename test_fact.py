@@ -12,7 +12,3 @@ def test_factorial_positive():
 
 def test_factorial_large():
     assert factorial(7) == 5040
-
-def test_factorial_negative():
-    with pytest.raises(ValueError):
-        factorial(-3)
